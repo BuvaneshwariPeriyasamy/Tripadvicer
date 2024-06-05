@@ -1,0 +1,329 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    /* box-sizing: border-box; */
+}
+
+body {
+
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+}
+.trip__icon {
+    display: flex;
+    align-items: center;
+}
+
+.trip__icon img {
+    width: 40px;
+    height: 40px;
+}
+
+.trip__option {
+    display: flex;
+    gap: 25px;
+}
+
+.trip__sign {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 100px;
+    font-weight: bolder;
+
+}
+
+.trip__sign img {
+    width: 16px;
+    height: 16px;
+
+}
+
+.trip__sign-usd {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 40px;
+    background-color: white;
+    border-radius: 30px;
+    border: none;
+    padding: 15px;
+
+}
+
+.trip__sign-usd:hover {
+    background-color: #F2F2F2;
+    border: none;
+    cursor: pointer;
+
+}
+
+.trip__sign-button {
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    height: 40px;
+    width: 90px;
+    font-size: medium;
+
+}
+
+.trip__sign-button:hover {
+    cursor: pointer;
+}
+
+.trip__bar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.trip__where {
+    font-size: x-large;
+    font-weight: bold;
+    margin-top: 60px;
+    text-align: center;
+}
+
+/* search bar */
+.trip__search-bar {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 40px;
+
+}
+
+.trip__search-bar div {
+    color: #474747;
+    display: flex;
+    align-items: end;
+    
+
+}
+.trip--search div{
+    border-bottom: solid white 2px;
+}
+.trip--search{
+    display: flex;
+    gap: 50px;
+    
+}
+
+.trip-bar{
+    border-bottom: solid #474747 2px;
+}
+
+.trip__search-bar div:hover {
+    cursor: pointer;
+    
+
+}
+.trip--search div:hover{
+    cursor: pointer;
+    border-bottom: solid #474747 2px;
+}
+
+.trip__search {
+    padding-left: 21%;
+    padding-top: 30px;
+}
+
+.trip__search--contant {
+    display: flex;
+    justify-content: center;
+    border: #E6E6E6 solid 2px;
+    width: 750px;
+    height: 40px;
+    align-items: center;
+    border-radius: 40px;
+    justify-content: space-between;
+    padding: 5px;
+    box-shadow: 0 10px 5px -5px rgba(0, 0, 0, 0.1);
+
+}
+
+.trip__search--contant img{
+    height: 32px;
+    width: 32px;
+}
+.trip__sear{
+    display: flex;
+    gap: 5px;
+}
+.trip__search--contant input {
+    border: none;
+    font-size: medium;
+
+}
+.trip__search--contant button{
+    border: none;
+    height: 45px;
+    width: 100px;
+    border-radius: 25px;
+    background-color: #2FF7B0;
+    text-align: center;
+    font-size: medium;
+    font-weight: bolder;
+}
+.trip__search--contant button:hover{
+    cursor: pointer;
+    opacity:0.5;
+}
+.trip__image01{
+    text-align: center;
+    margin-top: 70px;
+    
+}
+.trip__image01 img{
+    width: 85%;
+    border-radius: 10px;
+
+}
+/* seaction 01 */
+.trip__seaction01{
+    margin-top: 100px;  
+    
+}
+.trip__seaction01 h2{
+    margin-left: 7%;
+    
+}
+.trip__seaction01 p{
+    margin-left: 7%;
+    
+}
+.trip__image02{
+    display: flex;
+    justify-content: center;
+}
+.trip__image03{
+    display: flex;
+    gap: 10px;
+    width: 85%;
+    margin-top: 20px;
+    
+}
+.trip__image03 img{
+    width: 100%;
+    border-radius: 10px;
+    position: relative;
+}
+.trip__image03 h2{
+    padding-left: 10px;
+    position: relative;
+    bottom: 50px;
+   color: white;
+    }
+
+/* seaction 02 */
+
+.trip__seaction02{
+margin-top: 50px;
+}
+.trip__seaction02 h2{
+    margin-left: 7%;
+    
+}
+.trip__seaction02 p{
+    margin-left: 7%;
+    
+}
+.trip__image06{
+    display: flex;
+    
+    justify-content: center;
+ 
+    
+}
+.trip__image07{
+    display: flex;
+    justify-content:center;
+    gap: 10px;
+    width: 85%;
+    margin-top: 20px;
+    
+ 
+
+}
+.seaction-images img{
+    border-radius: 10px;
+    width: 100%;
+    
+    
+}
+
+.seaction-images{
+    width: 275px;
+     
+
+}
+.trip__seaction04{
+background-color:#faf1ed;  
+margin-top: 100px; 
+padding: 10px;  
+
+}
+.trip__seaction04 h2{
+     
+    margin-left: 7%;
+    padding-top: 10px;
+} 
+.trip__image19{
+    display: flex;
+    justify-content: center;
+
+}
+.trip__image20{
+    display: flex;
+    justify-content: center;
+    width: 85%;
+    margin-top: 10px;
+    gap: 15px;
+
+}
+.trip__image20 img{
+    width: 100%;
+    border-radius: 10px;
+    height: 250px;
+}
+.trip__seaction05{
+    display: flex;
+    margin-top: 100px;
+    background-color: #faf1ed;
+    justify-content: center;
+    margin: 7%;
+
+}
+.trip__seaction05-bar{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.trip__seaction05-image img{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.trip__seaction05-botton{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+
+}
+.trip__seaction05-botton button{
+    width: 150px;
+    height: 50px;
+    font-size: medium;
+    font-weight: bolder;
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-left: 180px;
+    margin-top: 20px;
+    
+}
